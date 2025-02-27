@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>revvxz - Portfolio Website</title>
+  <meta name="description" content="Personal portfolio website showcasing my projects and skills as a frontend developer and UI/UX designer.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <a href="#" class="logo">revvxz</a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <button data-section="home" class="active">Home</button>
+        <button data-section="about">About</button>
+        <button data-section="projects">Projects</button>
+        <button data-section="contact">Contact</button>
+      </nav>
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+  
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav">
+    <div class="container">
+      <button data-section="home" class="active">Home</button>
+      <button data-section="about">About</button>
+      <button data-section="projects">Projects</button>
+      <button data-section="contact">Contact</button>
+    </div>
+  </div>
+  
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Revi</span></h1>
+          <h2>Frontend Developer & UI/UX Designer</h2>
+          <p>
+            I create beautiful, responsive websites with modern technologies
+            that help businesses grow and succeed online.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn primary" data-section="projects">
+              View Projects <span class="chevron-right"></span>
+            </button>
+            <button class="btn secondary" data-section="contact">
+              Contact Me
+            </button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-image">
+            <img src="img/saya.png" alt="Profile">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Who I Am</h3>
+          <p>
+            I'm a passionate frontend developer and UI/UX designer with over 5 years of experience
+            creating modern, responsive websites and applications. I specialize in HTML, CSS,
+            JavaScript, and modern design principles.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new design trends, contributing to
+            open-source projects, or enjoying outdoor activities to recharge my creativity.
+          </p>
+        </div>
+        <div class="skills">
+          <h3>My Skills</h3>
+          <div class="skill-bars">
+            <div class="skill">
+              <div class="skill-info">
+                <span>HTML/CSS</span>
+                <span>82%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>15%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>Responsive Design</span>
+                <span>15%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent">Certificate</span></h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/js.png" alt="JavaScript">
+          </div>
+          <div class="project-info">
+            <h3>Belajar Dasar Pemograman JavaScript</h3>
+            <p></p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+            </div>
+            <a href="img/js.png" class="project-link">
+              View Project <span class="external-link"></span>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/k3.png" alt="E - Learning">
+          </div>
+          <div class="project-info">
+            <h3>K3 E - Learning</h3>
+            <p></p>
+            <div class="project-tags">
+                <span>Keselamatan kerja & Kesehatan kerja</span>
+            </div>
+            <a href="img/k3.png" class="project-link">
+              View Project <span class="external-link"></span>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/web.png" alt="Task Management App">
+          </div>
+          <div class="project-info">
+            <h3>Belajar Pemograman Dasar Web</h3>
+            <p></p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <a href="img/web.png" class="project-link">
+              View Project <span class="external-link"></span>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+              <img src="img/ai.png" alt="Dasar AI">
+            </div>
+            <div class="project-info">
+              <h3>Belajar Dasar AI</h3>
+              <p></p>
+              <div class="project-tags">
+                  <span>Dasar AI</span>
+              </div>
+              <a href="img/ai.png" class="project-link">
+                View Project <span class="external-link"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+       </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>
+            Feel free to reach out to me for any questions or opportunities. I'm always open
+            to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="mail-icon"></span>
+              <span>hello@revvxz.example.com</span>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Revianus" class="social-link github-icon"></a>
+              <a href="https://www.instagram.com/_revikuwusay_/" class="social-link instagram-icon"></a>
+              <a href="https://www.linkedin.com/in/revianus-kuwusay-/" class="social-link linkedin-icon"></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="copyright">
+        © <span id="current-year"></span> revvxz. All rights reserved.
+      </p>
+      <p class="footer-note">
+        Designed and built with ❤️
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
